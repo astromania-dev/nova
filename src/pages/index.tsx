@@ -1,7 +1,11 @@
-import {Example} from '../components/Example'
+import {Button} from '../components/atoms/Button'
 
 const Page = () => {
-  return <Example/>
+  return (
+    <section className="p-4">
+      <Button label="Submit" onClick={console.log}/>
+    </section>
+  )
 }
 
 export default Page
